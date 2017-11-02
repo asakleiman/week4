@@ -73,9 +73,14 @@ footer {
   /* images float left and centered on the page */
   clear: both;
   float: left;
-  width: 60%;
+  width: 55%;
   padding-top:1em;
-  padding-left:40%;
+  padding-left:45%;
   padding-bottom:1em;
   background-color: white;
   }
+footer img {
+  width: 5%;
+  height: auto;
+}
+}
