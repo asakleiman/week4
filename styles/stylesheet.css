@@ -1,0 +1,81 @@
+body {
+  /* change background and set global font family */
+font-family: Verdana, sans-serif;
+padding-top: 3em;
+padding-bottom: 3em;
+background-color: black;  
+}
+
+header h1 {
+  /* make bigger and color, font-style, font family san serif */
+  color: mediumpurple;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  font-size: 200%;
+  background-color: white;
+}
+
+.main-nav li a {
+  /*change background and font color, remove bullets, float elements, border on each element, center content within the links, width on links */
+  background-color: mediumpurple;
+  display: inline;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  border-right: .1em solid black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width:14.285%;
+}
+
+aside {
+  /* clear float, background color,  float, */
+  clear: both;
+  float:left;
+  background-color: lavender;
+  width:10%;  
+}
+aside ul { 
+ /* clear both */
+  clear: both;  
+  padding-top: 30%;
+  padding-bottom: 170%  
+}
+aside li {
+  box-sizing:border-box;
+  padding: 10px;
+  text-align: center;
+}
+aside li a {
+  text-decoration: none;  
+}
+article {
+  /* background-color, table-cell to match height */
+  background-color: gainsboro;
+  display: table-cell;
+}
+
+figure {
+    /* center content using margin:auto */
+  padding-top: 5%;
+  text-align: center;
+  width: 60%;
+  margin-right:auto;
+  margin-left:auto;
+}
+figure img {
+  width: 50%;
+  height: auto;
+}
+footer {
+  /* images float left and centered on the page */
+  clear: both;
+  float: left;
+  width: 100%;
+  padding-top:1em;
+  padding-left:40%;
+  padding-bottom:1em;
+  background-color: white;
+  }
